@@ -1,0 +1,13 @@
+k=int(input('k='))
+if k==1:
+    R=int(input('R='))
+    print('D=',2*R,'L=',3.14*2*R,'S=',3.14*R*R)
+if k==2:
+    D=int(input('D='))
+    print('R=',D/2,'L=',3.14*D,'S=',3.14*D*D/4)
+if k==3:
+    L=int(input('L='))
+    print('R=',L/6.28,'D=',L/3.14,'S=',L**2/12.56)
+if k==4:
+    S=int(input('S='))
+    print('R=',(S/3.14)**0.5,'D=',2*(S/3.14)**0.5,'L=',6.28*(S/3.14)**0.5)
