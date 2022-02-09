@@ -1,0 +1,28 @@
+d = int(input("d = "))
+m = int(input('m = '))
+y = int(input('y = '))
+kabisa = False
+if y%4==0:
+    kabisa = True
+if y%100==0 and y%400!=0:
+    kabisa = False
+d = d + 1
+
+if m == 4 or m == 6 or m == 9 or m == 11 :
+    if d==31:
+        d = 1
+        m = m + 1
+elif m == 2 and d>28:
+    if kabisa:
+        d = 29
+    else:
+        m=3
+        d=1
+elif m==1 or m==3 or m==5 or m==7 or m==8 or m==10 or m==12:
+    if d==32:
+        d=1
+        m=m+1
+if m==13:
+    m=1
+    y=y+1
+print(d,m,y)
