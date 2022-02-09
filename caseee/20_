@@ -1,0 +1,26 @@
+D=int(input("D="))
+M=int(input("M="))
+if D>=20 and M==1 or  D<=18 and M==2:
+    print("Qovg'a")
+if D>=19 and M==2 or D<=20 and M==3:
+    print("Baliq")
+if D>=21 and M==3 or D<=19 and M==4:
+    print("Qo'y")
+if D>=20 and M==4 or D<=20 and M==5:
+    print("Buzoq")
+if D>=21 and M==5 or D<=21 and M==6:
+    print("Egizaklar")
+if D>=22 and M==6 or D<=22 and M==7:
+    print("Qisqichbaqa")
+if D>=23 and M==7 or D<=22 and M==8:
+    print("Arslon")
+if D>=23 and M==8 or D<=22 and M==9:
+    print("Parizod")
+if D>=23 and M==9 or D<=22 and M==10:
+    print("Tarozi")
+if D>=23 and M==10 or D<=22 and M==11:
+    print("Chayon")
+if D>=23 and M==11 or D<=21 and M==12:
+    print("O'qotar")
+if D>=22 and M==12 or D<=19 and M==1:
+    print("Echki")
