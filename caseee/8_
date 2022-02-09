@@ -1,0 +1,26 @@
+d=int(input('d='))
+m=int(input('m='))
+if m==1:
+    print(d,'-yanvar')
+if m==2:
+    print(d,'-fevral')
+if m==3:
+    print(d,'-mart')
+if m==4:
+    print(d,'-aprel')
+if m==5:
+    print(d,'-may')
+if m==6:
+    print(d,'-iyun')
+if m==7:
+    print(d,'-iyul')
+if m==8:
+    print(d,'-avgust')
+if m==9:
+    print(d,'-sentabr')
+if m==10:
+    print(d,'-oktabr')
+if m==11:
+    print(d,'-noyabr')
+if m==12:
+    print(d,'-dekabr')
