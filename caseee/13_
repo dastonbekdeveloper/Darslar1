@@ -1,0 +1,25 @@
+k=int(input('k='))
+if k==1:
+    a=int(input('a='))
+    c=a*2**0.5
+    h=c/2
+    s=c*h/2
+    print(c,h,s)
+if k==2:
+    c=int(input('c='))
+    a=c/2**0.5
+    h=c/2
+    s=c*h/2
+    print(a,h,s)
+if k==3:
+    h=int(input('h='))
+    a=h*2**0.5
+    c=a*2**0.5
+    s=c*h/2
+    print(a,c,s)
+if k==4:
+    s=int(input('s='))
+    a=(2*s)**0.5
+    c=a*2**0.5
+    h=c/2
+    print(a,c,h)
