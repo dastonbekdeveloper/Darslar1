@@ -1,0 +1,20 @@
+n=int(input('n='))
+m=int(input('m='))
+if 6<=n<=10:
+    print(n,end=' ')
+if n==11:
+    print('valet',end=' ')
+if n==12:
+    print('dama',end=' ')
+if n==13:
+    print('qirol',end=' ')
+if n==14:
+    print('tuz',end=' ')
+if m==1:
+    print("g'isht")
+if m==2:
+    print("olma")
+if m==3:
+    print("chillak")
+if m==4:
+    print("qarg'a")
