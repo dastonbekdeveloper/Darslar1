@@ -1,0 +1,35 @@
+y=input('c=')
+k1=int(input('k1='))
+k2=int(input('k2='))
+if y=='s' and k1+k2==0:
+    print('janub')
+if y=='s' and k1+k2==1:
+    print('shimol')
+if y=='s' and k1+k2==2:
+    print('garb')
+if y=='s' and k1+k2==3:
+    print('sharq')
+if y=='j' and k1+k2==0:
+    print('shimol')
+if y=='j' and k1+k2==1:
+    print('janub')
+if y=='j' and k1+k2==2:
+    print('sharq')
+if y=='j' and k1+k2==3:
+    print('garb')
+if y=='q' and k1+k2==0:
+    print('garb')
+if y=='q' and k1+k2==1:
+    print('sharq')
+if y=='q' and k1+k2==2:
+    print('shimol')
+if y=='q' and k1+k2==3:
+    print('janub')
+if y=='g' and k1+k2==0:
+    print('sharq')
+if y=='g' and k1+k2==1:
+    print('garb')
+if y=='g' and k1+k2==2:
+    print('janub')
+if y=='g' and k1+k2==3:
+    print('shimol')
