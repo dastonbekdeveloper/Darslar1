@@ -1,0 +1,29 @@
+d = int(input("d = "))
+m = int(input('m = '))
+y = int(input('y = '))
+
+kabisa = False
+if y%4==0:
+    kabisa = True
+if y%100==0 and y%400!=0:
+    kabisa = False
+    
+d = d - 1
+
+if m == 5 or m == 7 or m == 10 or m == 12:
+    if d==0:
+        d = 30
+        m = m - 1
+elif m == 3:
+    if d == 0:
+        d = 28 + kabisa
+        m = 2
+else:
+    if d == 0:
+        d = 31
+        m = m - 1
+    if m == 0:
+        m = 12
+        y = y - 1
+        
+print(d,m,y,sep='.')
