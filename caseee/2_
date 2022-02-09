@@ -1,0 +1,13 @@
+k=int(input('k='))
+if k==1:
+    print('yomon')
+elif k==2:
+    print('qoniqarsiz')
+elif k==3:
+    print('qoniqarli')
+elif k==4:
+    print('yaxshi')
+elif k==5:
+    print("a'lo")
+else:
+    print('xato')
