@@ -1,0 +1,26 @@
+y=input('y=')
+k=int(input('k='))
+if y=='s' and k==0:
+    print('shimol')
+if y=='s' and k==1:
+    print('garb')
+if y=='s' and k==2:
+    print('sharq')
+if y=='j' and k==0:
+    print('janub')
+if y=='j' and k==1:
+    print('sharq')
+if y=='j' and k==2:
+    print('garb')
+if y=='q' and k==0:
+    print('sharq')
+if y=='q' and k==1:
+    print('shimol')
+if y=='q' and k==2:
+    print('janub')
+if y=='g' and k==0:
+    print('garb')
+if y=='g' and k==1:
+    print('janub')
+if y=='g' and k==2:
+    print('shimol')
