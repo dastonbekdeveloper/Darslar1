@@ -1,0 +1,35 @@
+y=int(input('y='))
+if y%5==4:
+    print('yashil',end=' ')
+if y%5==0:
+    print('qizil',end=' ')
+if y%5==1:
+    print('sariq',end=' ')
+if y%5==2:
+    print('oq',end=' ')
+if y%5==3:
+    print('qora',end=' ')
+if y%12==4:
+    print('sichqon yili')
+if y%12==5:
+    print('sigir yili')
+if y%12==6:
+    print('yolbars yili')
+if y%12==7:
+    print('quyon yili')
+if y%12==8:
+    print('ajdar yili')
+if y%12==9:
+    print('ilon yili')
+if y%12==10:
+    print('ot yili')
+if y%12==11:
+    print('qoy yili')
+if y%12==0:
+    print('maymun yili')
+if y%12==1:
+    print('tovuq yili')
+if y%12==2:
+    print('it yili')
+if y%12==3:
+    print('tongiz yili')
