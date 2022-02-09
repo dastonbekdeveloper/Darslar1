@@ -1,0 +1,9 @@
+k=int(input('k='))
+if k==1 or k==2 or k==12:
+    print('qish')
+if 3<=k<=5:
+    print('bahor')
+if 6<=k<=8:
+    print('yoz')
+if 9<=k<=11:
+    print('kuz')
