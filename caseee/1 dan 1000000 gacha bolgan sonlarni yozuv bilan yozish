@@ -1,0 +1,148 @@
+abcdefg=int(input())
+g=abcdefg%10
+f=(abcdefg%100)//10
+e=(abcdefg%1000)//100
+d=(abcdefg%10000)//1000
+c=(abcdefg%100000)//10000
+b=(abcdefg%1000000)//100000
+a=(abcdefg%10000000)//1000000
+if a==1:
+    print("bir")
+if a==2:
+    print("ikki")
+if a==3:
+    print("uch")
+if a==4:
+    print("to'rt")
+if a==5:
+    print("besh")
+if a==6:
+    print("olti")
+if a==7:
+    print("yetti")
+if a==8:
+    print("sakkiz")
+if a==9:
+    print("to'qqiz")
+if a!=0:
+    print(" million ")
+    
+if b==1:
+    print("bir")
+if b==2:
+    print("ikki")
+if b==3:
+    print("uch")
+if b==4:
+    print("to'rt")
+if b==5:
+    print("besh")
+if b==6:
+    print("olti")
+if b==7:
+    print("yetti")
+if b==8:
+    print("sakkiz")
+if b==9:
+    print("to'qqiz")
+if b!=0:
+    print(" yuz ")
+
+if c==1:
+    print("o'n")
+if c==2:
+    print("yigirma")
+if c==3:
+    print("o'ttiz")
+if c==4:
+    print("qirq")
+if c==5:
+    print("ellik")
+if c==6:
+    print("oltmish")
+if c==7:
+    print("yetmish")
+if c==8:
+    print("sakson")
+if c==9:
+    print("to'qson")
+
+if d==1:
+    print("bir")
+if d==2:
+    print("ikki")
+if d==3:
+    print("uch")
+if d==4:
+    print("to'rt")
+if d==5:
+    print("besh")
+if d==6:
+    print("olti")
+if d==7:
+    print("yetti")
+if d==8:
+    print("sakkiz")
+if d==9:
+    print("to'qqiz")
+if d!=0 or c!=0 or b!=0:
+    print(" ming ")
+
+if e==1:
+    print("bir")
+if e==2:
+    print("ikki")
+if e==3:
+    print("uch")
+if e==4:
+    print("to'rt")
+if e==5:
+    print("besh")
+if e==6:
+    print("olti")
+if e==7:
+    print("yetti")
+if e==8:
+    print("sakkiz")
+if e==9:
+    print("to'qqiz")
+if e!=0:
+    print(" yuz ")
+
+if f==1:
+    print("o'n")
+if f==2:
+    print("yigirma")
+if f==3:
+    print("o'ttiz")
+if f==4:
+    print("qirq")
+if f==5:
+    print("ellik")
+if f==6:
+    print("oltmish")
+if f==7:
+    print("yetmish")
+if f==8:
+    print("sakson")
+if f==9:
+    print("to'qson")
+
+if g==1:
+    print("bir")
+if g==2:
+    print("ikki")
+if g==3:
+    print("uch")
+if g==4:
+    print("to'rt")
+if g==5:
+    print("besh")
+if g==6:
+    print("olti")
+if g==7:
+    print("yetti")
+if g==8:
+    print("sakkiz")
+if g==9:
+    print("to'qqiz")
