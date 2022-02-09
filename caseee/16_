@@ -1,0 +1,32 @@
+y=int(input('y='))
+if y//10==1:
+    print('on',end=' ')
+if y//10==2:
+    print('yigirma',end=' ')
+if y//10==3:
+    print('ottiz',end=' ')
+if y//10==4:
+    print('qirq',end=' ')
+if y//10==5:
+    print('ellik',end=' ')
+if y//10==6:
+    print('oltmish',end=' ')
+if y%10==1:
+    print('bir',end=' ')
+if y%10==2:
+    print('ikki',end=' ')
+if y%10==3:
+    print('uch',end=' ')
+if y%10==4:
+    print('tort',end=' ')
+if y%10==5:
+    print('besh',end=' ')
+if y%10==6:
+    print('olti',end=' ')
+if y%10==7:
+    print('yetti',end=' ')
+if y%10==8:
+    print('sakkiz',end=' ')
+if y%10==9:
+    print('toqqiz',end=' ')
+print('yosh')
