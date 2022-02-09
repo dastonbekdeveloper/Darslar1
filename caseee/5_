@@ -1,0 +1,11 @@
+a=int(input('a='))
+b=int(input('b='))
+amal=input('amal=')
+if amal=='+':
+    print(a+b)
+if amal=='-':
+    print(a-b)
+if amal=='*':
+    print(a*b)
+if amal=='/':
+    print(a/b)
