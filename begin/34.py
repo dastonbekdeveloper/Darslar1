@@ -1,0 +1,5 @@
+X=int(input('X='))
+A=int(input('A='))
+Y=int(input('Y='))
+B=int(input('B='))
+print(A/X-B/Y)
