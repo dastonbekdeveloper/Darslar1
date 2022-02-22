@@ -7,4 +7,4 @@ for i in range(1, n+1):
 
 print("Natija: = ", summa)
 
-print(" \n\n\n  by: Ruzmov_Javlonbek   ")
+
